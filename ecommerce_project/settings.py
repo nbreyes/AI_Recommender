@@ -27,7 +27,7 @@ DEBUG = True
 
 import os
 
-SECRET_KEY = os.get_env('g&fu48og=%z_b5lk&ya(m7t-xramb$x=@9p_6j5)apc-m4@fmm', "fallback_dev_secret")
+SECRET_KEY = 'g&fu48og=%z_b5lk&ya(m7t-xramb$x=@9p_6j5)apc-m4@fmm'
 DEBUG = False
 
 ALLOWED_HOSTS = []
