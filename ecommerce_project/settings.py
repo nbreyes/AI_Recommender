@@ -25,6 +25,11 @@ SECRET_KEY = 'django-insecure-4w--1kz22kwdou^#)wqj77%sb^4bjr-wbi%5$s=c_+_5rpn2hf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+import os
+
+SECRET_KEY = os.get_env('g&fu48og=%z_b5lk&ya(m7t-xramb$x=@9p_6j5)apc-m4@fmm', "fallback_dev_secret")
+DEBUG = False
+
 ALLOWED_HOSTS = []
 
 
