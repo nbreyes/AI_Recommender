@@ -30,7 +30,7 @@ import os
 SECRET_KEY = 'g&fu48og=%z_b5lk&ya(m7t-xramb$x=@9p_6j5)apc-m4@fmm'
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://ai-recommender-r4cu.onrender.com/', 'localhost']
 
 
 # Application definition
